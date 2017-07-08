@@ -18,7 +18,7 @@ classifier = caffe.Classifier('/home/ubuntu/SqueezeNet/SqueezeNet_v1.1/deploy_v1
     channel_swap=[2,1,0])
 
 cat_cnt = 0
-paths = [temp_path for temp_path in glob.glob("/home/ubuntu/nyan_a_way/google_cat_dog_img/cat.*.jpg")]　←①
+paths = [temp_path for temp_path in glob.glob("/home/ubuntu/nyan_a_way/google_cat_dog_img/cat*.jpg")]
 
 for file_path in paths:
     print file_path

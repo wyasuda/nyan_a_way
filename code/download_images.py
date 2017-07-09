@@ -17,7 +17,7 @@ for cur_tgt in all_tgt:
     if cur_tgt == 'yard':
         confidence = 0.9
 
-    cnt = 1
+    cnt = 0
     for row1 in reader1:
 
         if float(row1[3]) == confidence:

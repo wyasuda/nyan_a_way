@@ -8,7 +8,7 @@ import urllib
 all_tgt = ["cat", "dog", "person", "yard"]
 
 for cur_tgt in all_tgt:
-    print 'Category : ' + str(cur_tgt) + '\n\n'
+    print '\nCategory : ' + str(cur_tgt) + '\n'
     f1 = open('/home/ubuntu/labels_'+str(cur_tgt)+'.csv', 'r')
     reader1 = csv.reader(f1)
     f2 = open('/home/ubuntu/images_2016_08/train/images.csv', 'r')

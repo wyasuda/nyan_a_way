@@ -1,7 +1,7 @@
 # coding: UTF-8
 gr = ["cat", "dog", "person", "yard"]
 
-f = open('~/list_train.txt', 'w')
+f = open('/home/ubuntu/list_train.txt', 'w')
 gc = 0
 for grp in gr:
     for i in range(9000):
@@ -10,7 +10,7 @@ for grp in gr:
     gc = gc + 1
 f.close()
 
-f = open('~/list_test.txt', 'w')
+f = open('/home/ubuntu/list_test.txt', 'w')
 gc = 0
 for grp in gr:
     for i in range(9000, 10000):

@@ -2,7 +2,7 @@ import csv
 import os
 import time
 from PIL import Image
-import urllib.request as ur
+import urllib
 
 all_tgt = ["cat", "dog", "person", "yard"]
 
@@ -27,7 +27,7 @@ for cur_tgt in all_tgt:
             print str(cnt)+' : '+row2[2]
 
             #load image
-            urlimg = ur.urlopen(row2[2])
+            urlimg = urllib.urlopen(row2[2])
             try:
                 img = Image.open(urlimg)
             except:

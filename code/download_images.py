@@ -8,10 +8,10 @@ import urllib
 all_tgt = ["cat", "dog", "person", "yard"]
 
 for cur_tgt in all_tgt:
-    print '\nCategory : ' + str(cur_tgt) + '\n'
+    print '\nClass : ' + str(cur_tgt) + '\n\n'
     f1 = open('/home/ubuntu/labels_'+str(cur_tgt)+'.csv', 'r')
     reader1 = csv.reader(f1)
-    f2 = open('/home/ubuntu/images_2016_08/train/images.csv', 'r')
+    f2 = open('/home/ubuntu/2017_07/train/images.csv', 'r')
     reader2 = csv.reader(f2)
     confidence = 1.0
     if cur_tgt == 'yard':

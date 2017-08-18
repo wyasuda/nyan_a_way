@@ -1,4 +1,3 @@
-# coding: UTF-8
 import glob
 import cv2
 import random

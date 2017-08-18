@@ -1,4 +1,3 @@
-# coding: UTF-8
 gr = ["cat", "dog", "person", "yard"]
 
 f = open('/home/ubuntu/list_train.txt', 'w')

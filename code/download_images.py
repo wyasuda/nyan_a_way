@@ -1,4 +1,3 @@
-# coding: UTF-8
 import csv
 import os
 import time

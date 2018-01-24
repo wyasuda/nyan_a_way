@@ -4,6 +4,8 @@ import time
 from PIL import Image
 import urllib
 
+Image.LOAD_TRUNCATED_IMAGES = True
+
 all_tgt = ["cat", "dog", "person", "yard"]
 
 for cur_tgt in all_tgt:

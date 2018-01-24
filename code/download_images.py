@@ -3,8 +3,8 @@ import os
 import time
 from PIL import Image
 import urllib
-
-Image.LOAD_TRUNCATED_IMAGES = True
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 all_tgt = ["cat", "dog", "person", "yard"]
 

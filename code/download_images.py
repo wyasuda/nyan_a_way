@@ -29,8 +29,8 @@ for cur_tgt in all_tgt:
             print str(cnt)+' : '+row2[2]
 
             #load image
-            urlimg = urllib.urlopen(row2[2])
             try:
+                urlimg = urllib.urlopen(row2[2])            
                 img = Image.open(urlimg)
             except:
                 continue # skip if error happened
